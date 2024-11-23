@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Preview</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Certificate Preview</h1>
+    <div class="container">
+        <img src="certificate.jpg" alt="Certificate Template">
+        <div class="content">
+            <h1 class="user-name">Pavitra Pandey</h1>
+            <p class="event">Treasure Hunt</p>
+            <p class="date">12/02/2024</p>
+        </div>
+    </div>
+    <button class="download-button" onclick="downloadCertificate()">Download Certificate</button>
+
+    <script>
+        function downloadCertificate() {
+            const link = document.createElement("a");
+            link.href = 'certificate.jpg'; // change to canvas or dynamic image if needed
+            link.download = "Certificate.png";
+            link.click();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "first_name": "Immanuel",
+    "last_name": "Moorfield",
+    "email": "imoorfield0@tamu.edu",
+    "gender": "Male",
+    "job-title": "Geologist IV"
+  },
+  {
+    "id": 2,
+    "first_name": "Pavitra",
+    "last_name": "Pandey",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "job-title": "Staff Accountant II"
+  },
+  {
+    "id": 3,
+    "first_name": "Pavitra",
+    "last_name": "Pandey",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "job-title": "Teacher"
+  },
+  {
+    "id": 4,
+    "first_name": "Alisun",
+    "last_name": "Bullier",
+    "email": "abullier3@wikipedia.org",
+    "gender": "Genderfluid",
+    "job-title": "Human Resources Assistant IV"
+  },
+  {
+    "id": 5,
+    "first_name": "Tudor",
+    "last_name": "Newcome",
+    "email": "tnewcome4@admin.ch",
+    "gender": "Male",
+    "job-title": "Accounting Assistant IV"
+  },
+  {
+    "id": 6,
+    "first_name": "Pavitra",
+    "last_name": "Pandey",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "job-title": "GIS Technical Architect"
+  },
+  {
+    "id": 7,
+    "first_name": "Haroun",
+    "last_name": "Pietrusiak",
+    "email": "hpietrusiak6@microsoft.com",
+    "gender": "Male",
+    "job-title": "Community Outreach Specialist"
+  },
+  {
+    "id": 8,
+    "first_name": "Lorrie",
+    "last_name": "Piechnik",
+    "email": "lpiechnik7@telegraph.co.uk",
+    "gender": "Male",
+    "job-title": "Assistant Professor"
+  },
+  {
+    "id": 9,
+    "first_name": "Tanya",
+    "last_name": "Langrick",
+    "email": "tlangrick8@msn.com",
+    "gender": "Female",
+    "job-title": "Accounting Assistant IV"
+  },
+  {
+    "first_name": "Pavitra\n",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "last_name": "Pandey",
+    "id": 10
+  },
+  {
+    "first_name": "Pavitra\n",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "last_name": "Pandey",
+    "id": 11
+  },
+  {
+    "first_name": "Pavitra",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "last_name": "Pandey",
+    "id": 12
+  },
+  {
+    "first_name": "Pavitra",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "last_name": "Pandey",
+    "id": 13
+  },
+  {
+    "first_name": "Pavitra",
+    "email": "pavitrapandeysagar@gmail.com",
+    "gender": "male",
+    "last_name": "Pandey",
+    "id": 14
+  }
+]
