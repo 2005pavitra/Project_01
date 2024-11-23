@@ -21,5 +21,15 @@ const userSchema = new mongoose.Schema({
 
   const User = mongoose.model("user", userSchema)
 
+  // const user1 = new User({
+  //   firstName:"Pavitra",
+  //   lastName:"Pandey",
+  //   email:"pjh@gmail.com",
+  //   gender:"male"
+
+  // })
+
+  // user1.save();
+
   module.exports = User;
   
