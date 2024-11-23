@@ -1,15 +1,14 @@
 const fs = require("fs");
 
-app.use(express.json());
-app.use(express.urlencoded({extended:false}));
+const myLogger = (logFile) => (req, res, next) => {
+    const log = `Method: ${req.method}, URL: ${req.url}, Timestamp: ${new Date().toISOString()}\n`;
+    fs.appendFile(logFile, log, (err) => {
+        if (err) {
+            console.error("Logging error:", err);
+        }
+    });
+    next();
+};
 
-app.use((req, res, next) =>{
- console.log("Hello from middleware 1");
- next();
-})
+module.exports = { myLogger };
 
-app.use((req,res,next)=>{
-  console.log("Hello from middleware 2");
-  return res.end("Hey")
-  
-})

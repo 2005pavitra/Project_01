@@ -9,5 +9,5 @@ async function connectMongoDb(){
 
 
 module.exports = {
-    connectMongoDb,
+    connectMongoDb
 }
